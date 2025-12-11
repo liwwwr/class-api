@@ -32,8 +32,13 @@ curl -X POST http://localhost:8080/api/announcements \
 
 📁 Файлы
 main.go — код сервера
+
+
 bulletin.json — хранилище данных
+
+
 go.mod — зависимости
+
 
 
 
