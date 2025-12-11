@@ -21,6 +21,7 @@ GET /health — проверка сервера
 
 💡 Примеры
 bash
+
 # Получить все
 curl http://localhost:8080/api/announcements
 
@@ -28,11 +29,11 @@ curl http://localhost:8080/api/announcements
 curl -X POST http://localhost:8080/api/announcements \
   -H "Content-Type: application/json" \
   -d '{"title":"Новое","content":"Текст","author":"Имя"}'
+
 📁 Файлы
 main.go — код сервера
-
 bulletin.json — хранилище данных
-
 go.mod — зависимости
+
 
 
